@@ -10,7 +10,7 @@ body{
     height: 100vh;
 }
 .Gen_grid_items1{
-width: 15%;
+width: 14%;
 position: fixed;
 background-color: rgb(255, 0, 51);
 height: 100vh;
@@ -35,6 +35,7 @@ nav{
     background-color: brown;
     display: flex;
     align-items: center;
+    padding-left: 10px;
 }
 nav h2{
     color: white;
