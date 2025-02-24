@@ -1,9 +1,68 @@
+
 /* General*/
+
+ 
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
+.m_container{
+    width: 20%;
+	margin: 200px auto;
+	padding: 10px 30px;
+	background-color: #fff;
+	border: 1px solid #ddd;
+    border-radius: 10px;
+}
+h3{
+    font-size: medium;
+    font-weight: 600;
+}
+
+.m_login{
+    /* position: absolute; */
+}
+p{
+    /* position:relative; */
+    color: red;
+}
+#username{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    
+}
+
+#password{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 120px 10px 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.move{
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+}
+h5{
+    font-weight: 200;
+}
+a{
+    padding-top: 20px;
+}
+
+/* DashBoard */
+
 .Gen_grid{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -61,6 +120,7 @@ nav h2{
     color: white;
     font-size: 1.1rem;
 }
+
 .employ{
     top:52px;
     position: fixed;
@@ -90,3 +150,4 @@ nav h2{
 .addStaff button:hover{
     background-color: rgb(109, 16, 16);
 }
+
