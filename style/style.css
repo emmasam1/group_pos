@@ -36,6 +36,8 @@ nav{
     display: flex;
     align-items: center;
     padding-left: 10px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 nav h2{
     color: white;
