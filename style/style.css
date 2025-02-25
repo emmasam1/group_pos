@@ -1,7 +1,4 @@
 
-/* General*/
-
- 
 body{
     padding: 0;
     margin: 0;
@@ -10,7 +7,7 @@ body{
 }
 .m_container{
     width: 20%;
-	margin: 130px auto;
+	margin: 200px auto;
 	padding: 10px 30px;
 	background-color: #fff;
 	border: 1px solid #ddd;
@@ -20,10 +17,6 @@ h3{
     font-size: medium;
     font-weight: 600;
 }
-
-/* .m_login{
-    /* position: absolute; 
-} */
 p{
     /* position:relative; */
     color: red;
@@ -41,28 +34,8 @@ p{
     padding: 10px 50px 10px 50px;
 }
 
-.m_login button{
-    background-color: brown;
-    color: white;
-    padding: 10px 120px 10px 120px;
-    border: none;
-    border-radius: 10px;
-    transition: .6s ease all;
-}
-button:hover{
-    background-color: rgb(109, 16, 16);
-}
-.move{
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-}
-h5{
-    font-weight: 200;
-}
-a{
-    padding-top: 20px;
-}
+
+
 
 /* DashBoard */
 /* nav{
@@ -175,7 +148,7 @@ th {
 .Gen_grid_items1{
 width: 14%;
 position: fixed;
-background-color: brown;
+background-color: gray;
 height: 100vh;
 padding-left: 10px;
 }
@@ -203,13 +176,13 @@ nav{
     border-bottom-right-radius: 5px;
     border-bottom: 2.5px solid rgb(195, 192, 192);
     border-right: 2.5px solid rgb(195, 192, 192) ;
-    gap: 830px;
+    gap: 829px;
 }
 .gap{
     gap: 775px !important;
 }
 nav h2{
-    color: brown;
+    color: gray;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
@@ -224,7 +197,7 @@ nav a button{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: brown;
+    background-color: gray;
     border: none;
     color: white;
     font-size: 1.1rem;
@@ -233,7 +206,7 @@ nav a button{
     
 }
 nav button:hover{
-    background-color: rgb(109, 16, 16);
+    background-color: rgb(1, 1, 1);
 }
 .links{
     height: 45px;
@@ -244,7 +217,7 @@ nav button:hover{
     transition: .7s ease all;
 }
 .links:hover{
-    background-color: rgb(109, 16, 16);
+    background-color: black;
 }
 .links a{
     text-decoration: none;
@@ -252,15 +225,103 @@ nav button:hover{
     color: white;
     font-size: 1.1rem;
 }
+/* <<<<<<< HEAD */
+.t-product{
+    position: relative;
+    top: 50px;
+}
+.t-body{
+    background-color: rgb(227, 127, 127);
+}
+.t-overlay{
+    height: 100%;
+}
+.t-btn{
+    padding: 7px 15px;
+    background-color: rgb(255, 0, 51);
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    margin: 15px 0 0 10px;
+}
+.t-table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}
+.t-tr{
+    background-color:  brown;
+    color: white;
+}
+.t-tr>th{
+    padding: 8px;
+}
+.t-forms{
+    width: 450px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color:  rgb(255, 0, 51);
+    padding: 1px 5px 20px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    position: relative;
+    left: 250px;
+    bottom: 47px;
+    display: none;
+    box-shadow:  0px 0px 20px black;
+}
+.t-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -10px;
+    gap: 12px;
+   
+}
+
+.t-grid label{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.t-grid input{
+    border: 1px solid brown;
+    outline: none;
+    padding: 5px 25px 5px 10px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+.t-btn-cont{
+    display: flex;
+    justify-content: end;
+}
+.t-btn-cont button{
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color: brown;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.t-file{
+    width: 165px;
+    background-color: white;
+    color: #9e9595;
+    font-size: 11px;
+    border: 1px solid brown;
+}
+/* ======= */
 
 
 .employ{
     top:56px;
     position: fixed;
-    background-color: rgb(227, 127, 127);
     height: 545px;
     width: 100%;
     z-index: 0;
+    background-color: rgb(228, 224, 224);
 }
 .addStaff{
     height: 60px;
@@ -296,6 +357,7 @@ nav button:hover{
     color: brown;
     padding-left: 10px;
     border: none;
+    outline: none;
 }
 .search button{
     width: 50px !important;
@@ -306,6 +368,7 @@ nav button:hover{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: gray !important;
 }
 table{
     width: 84%;
@@ -364,3 +427,76 @@ tr:nth-child(even) {
   .drop-down-cont button:hover{
     background-color: rgb(109, 16, 16);
   }
+  .display{
+display:none ;
+  }
+  .D-form{
+    margin: auto;
+    width: 39%;
+    height: 350px;
+    background-color: rgb(223, 39, 39);
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .D-form h2{
+    margin-top: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+  }
+  .D-overlay{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.388);
+    height: 497px;
+    position: relative;
+    padding-top: 100px;
+    z-index: 0;
+  }
+  .addStaff-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .addClass-item{
+    height: 100%;
+  }
+  .imp{
+    /* height: 50px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .imp label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .imp input{
+    height: 27px;
+    border: none;
+    color: brown;
+    padding-left: 5px;
+    font-size: 12px;
+    width: 230px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    outline: none;
+  }
+  .imp span{
+    font-size: 12px;
+  }
+  .fles{
+    display: flex;
+    gap: 170px;
+    align-items: center;
+  }
+  .fles button{
+    height: 35px;
+    width: 100px;
+    border: none;
+    background-color: brown;
+    color: white;
+    transition: .6s ease all;
+  }
+  .fles button:hover{
+    background-color: rgb(109, 16, 16);
+  }
+  /* staff end */
