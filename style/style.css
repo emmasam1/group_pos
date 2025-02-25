@@ -322,7 +322,7 @@ tr:nth-child(even) {
   }
   .drop-down-cont button:hover{
     background-color: rgb(109, 16, 16);
-  }
+}
   .display{
 display:none ;
   }
