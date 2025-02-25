@@ -25,5 +25,13 @@ function handleSubmit(event){
     }else if(password < 8){
         pass_err.innerHTML = '**Password must be atleast 8**'
     }
-// >>>>>>> 93e8e0fd7ef66ba3d8c841790f636d0c6c43f4e2
+
+}
+
+
+// d staff
+
+function addStaff(){
+    let addStaffs = document.querySelector('.D-overlay')
+    addStaffs.style.display = 'block'
 }

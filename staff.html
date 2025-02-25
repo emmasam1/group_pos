@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
+  <div class="">
     <div class="Gen_grid">
         <div class="Gen_grid_items1">
             <h1>Shoprite</h1>
@@ -14,7 +15,7 @@
               <a href="dashboard.html">Dashboard</a>
             </div>
             <div class="links">
-              <a href="">Products</a>
+              <a href="product.html">Products</a>
             </div>
         </div>
         <div class="Gen_grid_items2">
@@ -24,13 +25,12 @@
           </nav>
           <div class="employ">
               <div class="addStaff">
-                <button onclick="popUp()">Add Staff +</button>
+                <button onclick="addStaff()">Add Staff +</button>
                 <div class="search">
                   <input type="search" id="search" placeholder="Search Staff">
                   <button><img src="icons/search.png" alt=""></button>
                 </div>
-                
-              </div>
+                </div>
               <div>
                 <table>
                   <tr>
@@ -145,10 +145,61 @@
                   </tr>
                 </table>
               </div>
+              
           </div>
         </div>
     </div>
+    <div class="D-overlay">
+    <form action="" class="D-form" onsubmit="handleSubmit(event)">
+      <h2>Add User</h2>
+        <div class="addStaff-grid">
+          <div class="addClass-item">
+            <div class="imp">
+              <label for="">*FULL NAME</label>
+              <input type="text" placeholder="Enter Full Name">
+              <span></span>
+            </div>
+            <div class="imp">
+              <label for="">*EMAIL</label>
+              <input type="text" placeholder="Enter Email Address">
+              <span></span>
+            </div>
+            <div class="imp">
+              <label for="">*GUARANTOR</label>
+              <input type="text" placeholder="Enter Guarantor Name">
+              <span></span>
+            </div>
+          </div>
+          <div class="addClass-item">
+            <div class="imp">
+              <label for="">*ADDRESS</label>
+              <input type="text" placeholder="Enter Address">
+              <span></span>
+            </div>
+            <div class="imp">
+              <label for="">*NUMBER</label>
+              <input type="text" placeholder="Enter Phone Number">
+              <span></span>
+            </div>
+            <div class="imp">
+              <label for="">*GUARANTOR NUMBER</label>
+              <input type="text" placeholder="Enter Guarantor Phone Number">
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="fles">
+        <div class="imp">
+          <label for="">*IMAGE</label>
+          <input type="file" placeholder="Click To Upload" style="width: 200px !important; height: 35px !important ;">
+          <span></span>
+        </div>
+        <button>Submit</button>
+      </div>
 
+    </form>
+  </div>
+  </div>
 
     <script src="script/script.js"></script>
 </body>
