@@ -255,6 +255,7 @@ nav button:hover{
     color: brown;
     padding-left: 10px;
     border: none;
+    outline: none;
 }
 .search button{
     width: 50px !important;
@@ -374,6 +375,7 @@ display:none ;
     width: 230px;
     margin-bottom: 5px;
     border-radius: 5px;
+    outline: none;
   }
   .imp span{
     font-size: 12px;
