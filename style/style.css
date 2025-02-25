@@ -65,6 +65,107 @@ a{
 }
 
 /* DashBoard */
+/* nav{
+    width: 40%;
+    padding: 12px 0;
+    background-color: rgb(229, 223, 223);
+    font-size: larger;
+}
+nav a{
+    margin: 30px;
+    text-decoration: none;
+    color: rgb(103, 66, 18);
+} */
+ .grid-container{
+    /* width: 100%; */
+    padding: 0 15px 15px 15px;
+    margin: 10px 10px 10px 14px;
+    justify-content: justify;
+    column-gap: 15px;
+    /* margin: 0 5px 0 5px; */
+    display: flex;
+    flex-direction: row;
+    margin-top: 58px;
+}
+
+.grid-item1{
+    width: 23.5%;
+    height: 60px;
+    justify-items: center;
+    /* margin: 10px 30px; */
+    display: grid;
+    border-radius: 3px;
+    background-color: rgb(103, 99, 99)!important;
+}
+.grid-item2{
+    width: 23.5%;
+    height: 60px;
+    justify-items: center;
+    /* margin: 10px 30px; */
+    display: grid;
+    border-radius: 3px;
+    background-color: rgb(51, 69, 95)!important;
+}
+
+.grid-item3{
+    justify-items: center;
+    width: 23.5%;
+    height: 60px;
+    /* margin: 10px 30px; */
+    display: grid;
+    border-radius: 3px;
+    background-color: rgb(194, 253, 101);
+}
+.grid-item4{
+    width: 23.5%;
+    height: 60px;
+    justify-items: center;
+    /* margin: 10px 30px; */
+    display: grid;
+    border-radius: 3px;
+    background-color: rgb(128, 162, 130);
+}
+.tables-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 45%;
+    margin: 10px;
+    background-color: azure;
+}
+th, td {
+    border: 0.9px ;
+    border-style: inherit;
+    padding: 8px;
+    text-align: center;
+    color: black;
+    background-color: azure;
+}
+tr:nth-child(odd) {
+    background-color: #D6EEEE;
+    border-style: initial;
+  }
+
+
+th {
+    background-color: #f2f2f2;
+}
+
+.outline{
+    gap: 50%;
+    margin: 0 10px;
+    padding: 0;
+    margin-bottom: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    font-weight: 900;
+}
 
 .Gen_grid{
     display: grid;
@@ -151,6 +252,7 @@ nav button:hover{
     color: white;
     font-size: 1.1rem;
 }
+
 
 .employ{
     top:56px;
