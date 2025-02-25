@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <div class="Gen_grid t-overlay">
+    <div class="Gen_grid">
         <div class="Gen_grid_items1">
             <h1>Shoprite</h1>
             <div class="links">
@@ -17,60 +17,62 @@
               <a href="">Products</a>
             </div>
         </div>
-        <div class="Gen_grid_items2">
-          <nav>
-            <h2>Products</h2>
-          </nav>
-          <div class="t-product">
-            <button class="t-btn" onclick="addprod()">Add Product +</button>
-            <table class="t-table">
-                <tr class="t-tr">
-                    <th>S/N</th>
-                    <th>Product Name</th>
-                    <th>Product Type</th>
-                    <th>Quantity</th>
-                    <th>Actions</th>
-                </tr>
-            </table>
-            <form action="" class="t-forms">
-                <h3>Add Product</h3>
-
-                <div class="t-grid">
-                    <div>
-                        <label for="">PRODUCT NAME</label>
-                        <input type="text" placeholder="Enter Product Name">
+        <div class="Gen_grid_items2 t-body">
+          <div class="t-overlay">
+            <nav>
+                <h2>Products</h2>
+              </nav>
+              <div class="t-product">
+                <button class="t-btn" onclick="addprod()">Add Product +</button>
+                <table class="t-table">
+                    <tr class="t-tr">
+                        <th>S/N</th>
+                        <th>Product Name</th>
+                        <th>Product Type</th>
+                        <th>Quantity</th>
+                        <th>Actions</th>
+                    </tr>
+                </table>
+                <form action="" class="t-forms">
+                    <h3>Add Product</h3>
+    
+                    <div class="t-grid">
+                        <div>
+                            <label for="">PRODUCT NAME</label>
+                            <input type="text" placeholder="Enter Product Name">
+                        </div>
+                        <div>
+                            <label for="">BULK PRICE</label>
+                            <input type="text" placeholder="Enter bulk price">
+                        </div>
+                        <div>
+                            <label for="">UNIT PRICE</label>
+                            <input type="text" placeholder="Enter unit price">
+                        </div>
+                        <div>
+                            <label for="">QUANTITY</label>
+                            <input type="text" placeholder="Enter quantity">
+                        </div>
+                        <div>
+                            <label for="">MANUFACTURING DATE</label>
+                            <input type="" placeholder="Select manufacturing date">
+                        </div>
+                        <div>
+                            <label for="">EXPIRY DATE</label>
+                            <input type="" placeholder="Select expiry date">
+                        </div>
+                        <div>
+                            <label for="">PRODUCT IMAGE</label>
+                            <input type="file" class="t-file">
+                        </div>
                     </div>
-                    <div>
-                        <label for="">BULK PRICE</label>
-                        <input type="text" placeholder="Enter bulk price">
+                    <div class="t-btn-cont">
+                        <button>Create Product</button>
                     </div>
-                    <div>
-                        <label for="">UNIT PRICE</label>
-                        <input type="text" placeholder="Enter unit price">
-                    </div>
-                    <div>
-                        <label for="">QUANTITY</label>
-                        <input type="text" placeholder="Enter quantity">
-                    </div>
-                    <div>
-                        <label for="">MANUFACTURING DATE</label>
-                        <input type="" placeholder="Select manufacturing date">
-                    </div>
-                    <div>
-                        <label for="">EXPIRY DATE</label>
-                        <input type="" placeholder="Select expiry date">
-                    </div>
-                    <div>
-                        <label for="">PRODUCT IMAGE</label>
-                        <input type="file" class="t-file">
-                    </div>
-                </div>
-                <div class="t-btn-cont">
-                    <button>Create Product</button>
-                </div>
-            </form>
+                </form>
+              </div>
+            </div>
           </div>
-        </div>
     </div>
     
 
