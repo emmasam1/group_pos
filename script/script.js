@@ -1,3 +1,11 @@
+// <<<<<<< HEAD
+function addprod(){
+    let visible = document.querySelector('.t-forms')
+    visible.style.display = 'block'
+    let overlay = document.querySelector('.t-overlay')
+    overlay.style.backgroundColor = '#00000033'
+}
+// =======
 function handleSubmit(event){
     event.preventDefault()
 
@@ -17,6 +25,7 @@ function handleSubmit(event){
     }else if(password < 8){
         pass_err.innerHTML = '**Password must be atleast 8**'
     }
+
 }
 
 

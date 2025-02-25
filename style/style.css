@@ -1,7 +1,4 @@
 
-/* General*/
-
- 
 body{
     padding: 0;
     margin: 0;
@@ -10,7 +7,7 @@ body{
 }
 .m_container{
     width: 20%;
-	margin: 130px auto;
+	margin: 200px auto;
 	padding: 10px 30px;
 	background-color: #fff;
 	border: 1px solid #ddd;
@@ -20,10 +17,6 @@ h3{
     font-size: medium;
     font-weight: 600;
 }
-
-/* .m_login{
-    /* position: absolute; 
-} */
 p{
     /* position:relative; */
     color: red;
@@ -41,17 +34,14 @@ p{
     padding: 10px 50px 10px 50px;
 }
 
-.m_login button{
-    background-color: brown;
+button{
+    background-color: black;
     color: white;
     padding: 10px 120px 10px 120px;
-    border: none;
+    border: 1px solid black;
     border-radius: 10px;
-    transition: .6s ease all;
 }
-button:hover{
-    background-color: rgb(109, 16, 16);
-}
+
 .move{
     display: flex;
     flex-direction: row;
@@ -151,7 +141,9 @@ nav button:hover{
     color: white;
     font-size: 1.1rem;
 }
+
 /* dashboard end */
+/* add staff start */
 .employ{
     top:56px;
     position: fixed;
@@ -333,3 +325,4 @@ display:none ;
   .fles button:hover{
     background-color: rgb(109, 16, 16);
   }
+  /* staff end */
