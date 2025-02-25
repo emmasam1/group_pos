@@ -1,63 +1,10 @@
-<<<<<<< HEAD
 body{
     padding: 0;
     margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
-.m_container{
-    width: 20%;
-	margin: 200px auto;
-	padding: 10px 30px;
-	background-color: #fff;
-	border: 1px solid #ddd;
-    border-radius: 10px;
-}
-h3{
-    font-size: medium;
-    font-weight: 600;
-}
 
-.m_login{
-    /* position: absolute; */
-}
-p{
-    /* position:relative; */
-    color: red;
-}
-#username{
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
-    
-}
-
-#password{
-    border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
-}
-
-button{
-    background-color: black;
-    color: white;
-    padding: 10px 120px 10px 120px;
-    border: 1px solid black;
-    border-radius: 10px;
-}
-
-.move{
-    display: flex;
-    flex-direction: row;
-    padding-left: 20px;
-}
-h5{
-    font-weight: 200;
-}
-a{
-    padding-top: 20px;
-}
-=======
 /* DashBoard */
 body{
     padding: 0;
@@ -121,4 +68,3 @@ nav h2{
     color: white;
     font-size: 1.1rem;
 }
->>>>>>> f49ed09187995585059b5c82a5630c08de949d32
