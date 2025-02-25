@@ -18,3 +18,11 @@ function handleSubmit(event){
         pass_err.innerHTML = '**Password must be atleast 8**'
     }
 }
+
+
+// d staff
+
+function addStaff(){
+    let addStaffs = document.querySelector('.D-overlay')
+    addStaffs.style.display = 'block'
+}
