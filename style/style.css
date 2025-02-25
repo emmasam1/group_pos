@@ -129,6 +129,12 @@ nav button:hover{
     position: relative;
     top: 50px;
 }
+.t-body{
+    background-color: rgb(227, 127, 127);
+}
+.t-overlay{
+    height: 100%;
+}
 .t-btn{
     padding: 7px 15px;
     background-color: rgb(255, 0, 51);
