@@ -16,6 +16,7 @@ body{
 h3{
     font-size: medium;
     font-weight: 600;
+    
 }
 p{
     /* position:relative; */
@@ -118,27 +119,8 @@ th, td {
     color: black;
     background-color: azure;
 }
-tr:nth-child(odd) {
-    background-color: #D6EEEE;
-    border-style: initial;
-  }
 
-
-th {
-    background-color: #f2f2f2;
-}
-
-.outline{
-    gap: 50%;
-    margin: 0 10px;
-    padding: 0;
-    margin-bottom: 0;
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-    font-size: 25px;
-    font-weight: 900;
-}
+/* DashBoard */
 
 .Gen_grid{
     display: grid;
@@ -308,6 +290,11 @@ nav button:hover{
     color: #9e9595;
     font-size: 11px;
     border: 1px solid brown;
+}
+.t-err{
+    color: black;
+    font-size: 12px;
+    position: absolute;
 }
 /* ======= */
 

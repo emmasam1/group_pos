@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/register.css">
+</head>
+<body>
+    <div class="m_container2">
+        <form action="" onsubmit="handleRegister(event)">
+            <div class="style">
+                <div class="m_login">
+                    <label for="">* FULL NAME</label>
+                    <input type="text" id="name" placeholder="Enter full name">
+                    <p id="name_err"></p>
+                </div>
+    
+                <div class="m_login">
+                    <label for="">* USERNAME</label>
+                    <input type="text" id="username" placeholder="Enter username">
+                    <p id="user_err"></p>
+                </div>
+    
+                <div class="m_login">
+                    <label for="">* STORE NAME</label>
+                    <input type="text" id="storename" placeholder="Enter store name">
+                    <p id="store_err"></p>
+                </div>
+    
+                <div class="m_login">
+                    <label for="">* STORE ADDRESS</label>
+                    <input type="text" id="storeaddress" placeholder="Enter store address">
+                    <p id="address_err"></p>
+                </div>
+                
+                <div class="m_login">
+                    <label for="">* EMAIL</label>
+                    <input type="text" id="email" placeholder="Enter email">
+                    <p id="email_err"></p>
+                </div>
+                
+                <div class="m_login">
+                    <label for="">* PHONE</label>
+                    <input type="number" id="number" placeholder="Enter phone number">
+                    <p id="number_err"></p>
+                </div>
+                
+                <div class="m_login">
+                    <label for="">* DATE OF BIRTH</label>
+                    <input type="datetime" id="birth" placeholder="Select date">
+                    <p id="birth_err"></p>
+                </div>
+                
+                <div class="m_login">
+                    <label for="">STORE LOGO(OPTIONAL)</label>
+                    <input type="text" id="upload" placeholder="Click to Upload">
+                    <p id="upload_err"></p>
+                </div>
+            </div>
+            <div class="m_login_button">
+                <button>Register</button>
+            </div>
+            <div class="arrange">
+                <h6>Already have an account?</h6><a href="index.html">Login</a>
+            </div>
+        </form>
+    </div>
+
+
+    <script src="./script/register.js"></script>
+</body>
+</html>
