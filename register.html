@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./style/register.css">
 </head>
 <body>
     <div class="m_container2">
-        <form action="" onsubmit="handleRegister(event)">
+        <form action="" id="register">
             <div class="style">
                 <div class="m_login">
                     <label for="">* FULL NAME</label>
@@ -20,6 +22,22 @@
                     <label for="">* USERNAME</label>
                     <input type="text" id="username" placeholder="Enter username">
                     <p id="user_err"></p>
+                </div>
+                <div class="m_login">
+                    <label for="">* PASSWORD</label>
+                    <input type="password" placeholder="Enter password" id="password">
+                    <i class="fa-regular fa-eye-slash open"></i>
+                    <i class="fa-regular fa-eye close"></i>
+                    
+                    <p id="pass_err"></p>
+                </div>
+                <div class="m_login">
+                    <label for="">* CONFIRM PASSWORD</label>
+                    <input type="password" placeholder="Confirm password" id="confirm">
+                    <i class="fa-regular fa-eye-slash look"></i>
+                    <i class="fa-regular fa-eye blind"></i>
+                    
+                    <p id="confirm_err"></p>
                 </div>
     
                 <div class="m_login">
