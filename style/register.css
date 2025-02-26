@@ -15,7 +15,7 @@ body{
     gap: 20px;
 }
 .m_container2{
-    padding: 15px 30px;
+    padding:  10px 40px ;
     background-color: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -34,64 +34,99 @@ p{
 }
 #name{
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
     margin-top: 10px;
+    outline: none;
+    position: relative;
 }
 
+#password{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    outline: none;
+    position: relative;
+    
+}
+
+#confirm{
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    outline: none;
+    position: relative;
+    
+}
 #username{
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
     margin-top: 10px;
+    outline: none;
+    position: relative;
 }
 #storename{
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
     margin-top: 10px;
+    outline: none;
+    position: relative;
 }
 
 #storeaddress{
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
     margin-top: 10px;
+    outline: none;
+    position: relative;
 }
 #email{
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
     margin-top: 10px;
+    outline: none;
+    position: relative;
 }
 
 #number{
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
     margin-top: 10px;
+    outline: none;
+    position: relative;
 }
 #birth{
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
     margin-top: 10px;
+    outline: none;
+    position: relative;
 }
 
 #upload{
     border: 1px solid #ddd;
-    border-radius: 10px;
-    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    padding: 10px 20px;
     margin-top: 10px;
+    outline: none;
+    position: relative;
 }
 button{
     background-color: black;
     color: white;
-    padding: 10px 120px 10px 120px;
+    padding: 10px 80px;
     border: 1px solid black;
     border-radius: 10px;
     margin-top: 15px;
-    margin-left: 140px;
+    margin-left: 120px;
 }
 /* .m_login_button{
     display: grid;
@@ -103,7 +138,7 @@ button{
 .arrange{
     display: flex;
     flex-direction: row;
-    margin-left: 200px;
+    margin-left: 130px;
 }
 h5{
     font-weight: 200;
@@ -115,7 +150,32 @@ a{
     color: rgb(102, 102, 219);
     transition: .7s ease-in-out;
 }
-a:hover{
-    color: blue;
-    font-size: 0.8rem;
+
+.open{
+    position: absolute;
+    right: 7px;
+    top: 42px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.close{
+    position: absolute;
+    right: 7px;
+    top: 42px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.look{
+    position: absolute;
+    right: 7px;
+    top: 42px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.blind{
+    position: absolute;
+    right: 7px;
+    top: 42px;
+    font-size: 12px;
+    cursor: pointer;
 }
