@@ -1,0 +1,121 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+.style{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.m_container2{
+    padding: 15px 30px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+.m_login{
+    position: relative;
+    height: 78px;
+    display: flex;
+    flex-direction: column; 
+}
+p{
+    position:absolute;
+    color: red;
+    top: 60px;
+    font-size: .7rem;
+}
+#name{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+
+#username{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+#storename{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+
+#storeaddress{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+#email{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+
+#number{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+#birth{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+
+#upload{
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px 50px 10px 50px;
+    margin-top: 10px;
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 10px 120px 10px 120px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left: 140px;
+}
+/* .m_login_button{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 50%;
+    margin: auto;
+   
+} */
+.arrange{
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+h5{
+    font-weight: 200;
+}
+a{
+    padding-top: 25px;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: rgb(102, 102, 219);
+    transition: .7s ease-in-out;
+}
+a:hover{
+    color: blue;
+    font-size: 0.8rem;
+}

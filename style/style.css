@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body{
     padding: 0;
     margin: 0;
@@ -16,6 +15,7 @@ body{
 h3{
     font-size: medium;
     font-weight: 600;
+    
 }
 
 .m_login{
@@ -57,7 +57,6 @@ h5{
 a{
     padding-top: 20px;
 }
-=======
 /* DashBoard */
 
 .Gen_grid{
@@ -145,4 +144,3 @@ nav button:hover{
     color: white;
     font-size: 1.1rem;
 }
->>>>>>> f49ed09187995585059b5c82a5630c08de949d32
