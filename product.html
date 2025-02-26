@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <div class="Gen_grid">
@@ -21,13 +23,13 @@
             </div>
         </div>
         <div class="Gen_grid_items2">
-            <div class="t-overlay">
+            
                 <nav class="gap"> 
                     <h2>Products</h2>
                     <a href="index.html"><button>LOGOUT</button></a>
                   </nav>
                   <div class="t-product">
-                    <button class="t-btn" onclick="addprod()">Add Product +</button>
+                    <button class="t-btn">Add Product +</button>
                     <table class="t-table">
                         <tr class="t-tr">
                             <th>S/N</th>
@@ -37,41 +39,56 @@
                             <th>Actions</th>
                         </tr>
                     </table>
+                    <div class="t-overlay">
                     <form action="" class="t-forms">
+                        <div class="t-close">
+                            <button id="close_form"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
                         <h3>Add Product</h3>
                         <div class="t-grid">
                             <div>
                                 <label for="">PRODUCT NAME</label>
-                                <input type="text" placeholder="Enter Product Name">
-                                <p class="t-err">gdfds</p>
+                                <input type="text" placeholder="Enter Product Name" id="name">
+                                <p class="t-err" id="name_err"></p>
                             </div>
                             <div>
                                 <label for="">BULK PRICE</label>
-                                <input type="text" placeholder="Enter bulk price">
+                                <input type="text" placeholder="Enter bulk price" id="bulk">
+                                <p class="t-err" id="bulk_err"></p>
                             </div>
                             <div>
                                 <label for="">UNIT PRICE</label>
-                                <input type="text" placeholder="Enter unit price">
+                                <input type="text" placeholder="Enter unit price" id="unit">
+                                <p class="t-err-2" id="unit_err"></p>
+                                
                             </div>
                             <div>
                                 <label for="">QUANTITY</label>
-                                <input type="text" placeholder="Enter quantity">
+                                <input type="text" placeholder="Enter quantity" id="quantity">
+                                <p class="t-err-2" id="quantity_err"></p>
+
                             </div>
                             <div>
                                 <label for="">MANUFACTURING DATE</label>
-                                <input type="" placeholder="Select manufacturing date">
+                                <input type="" placeholder="Select manufacturing date" id="man_date">
+                                <p class="t-err-3" id="man_date_err"></p>
+
                             </div>
                             <div>
                                 <label for="">EXPIRY DATE</label>
-                                <input type="" placeholder="Select expiry date">
+                                <input type="" placeholder="Select expiry date" id="ex_date">
+                                <p class="t-err-3" id="ex_date_err"></p>
+
                             </div>
                             <div>
                                 <label for="">PRODUCT IMAGE</label>
-                                <input type="file" class="t-file">
+                                <input type="file" class="t-file" id="prod_img">
+                                <p class="t-err-4" id="prod_img_err"></p>
+
                             </div>
                         </div>
                         <div class="t-btn-cont">
-                            <button>create</button>
+                            <button id="create_prod">Create Product</button>
                         </div>
                     </form>
                  </div>
