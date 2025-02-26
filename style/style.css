@@ -16,7 +16,6 @@ body{
 h3{
     font-size: medium;
     font-weight: 600;
-    
 }
 p{
     /* position:relative; */
@@ -207,4 +206,288 @@ nav button:hover{
     color: white;
     font-size: 1.1rem;
 }
->>>>>>> f49ed09187995585059b5c82a5630c08de949d3
+
+/* <<<<<<< HEAD */
+.t-product{
+    position: relative;
+    top: 50px;
+}
+.t-overlay{
+    height: 100%;
+}
+.t-btn{
+    padding: 9px 20px;
+    background-color: gray;
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 15px 0 0 10px;
+}
+.t-table{
+    width: 98%;
+    border-collapse: collapse;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 15px;
+}
+.t-tr{
+    background-color:  brown;
+    color: white;
+}
+.t-tr>th{
+    padding: 8px;
+}
+.t-forms{
+    width: 450px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: white;
+    padding: 1px 5px 20px 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: black;
+    position: relative;
+    left: 250px;
+    bottom: 47px;
+    display: none;
+    box-shadow:  0px 0px 20px black;
+}
+.t-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: -10px;
+    gap: 12px;
+   
+}
+
+.t-grid label{
+    font-size: 11px;
+}
+.t-grid input{
+    margin-top: 6px;
+    border: 1px solid black;
+    outline: none;
+    padding: 9px 45px 9px 10px;
+    border-radius: 2px;
+    font-size: 11px;
+}
+.t-btn-cont{
+    display: flex;
+    justify-content: end;
+}
+.t-btn-cont button{
+    margin-top: 20px;
+    margin-right: 30px;
+    background-color:grey;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 9px 20px;
+    cursor: pointer;
+}
+.t-file{
+    width: 140px;
+    background-color: white;
+    color: #9e9595;
+    font-size: 11px;
+    border: 1px solid brown;
+}
+.t-err{
+    color: black;
+    font-size: 12px;
+    position: absolute;
+}
+/* ======= */
+
+
+.employ{
+    top:56px;
+    position: fixed;
+    height: 545px;
+    width: 100%;
+    z-index: 0;
+}
+.addStaff{
+    height: 60px;
+    width: 100%;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+    gap: 730px;
+}
+.addStaff button{
+    background-color: gray;
+    border: none;
+    height: 40px !important;
+    width: 120px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    transition: .7s ease all;
+    padding: 0 !important;
+}
+.addStaff button:hover{
+    background-color: black;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    height: 40px !important;
+    width: 170px;
+    color: black;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+}
+.search button{
+    width: 50px !important;
+    height: 40px !important;
+    border-radius: 0 !important;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray !important;
+}
+table{
+    width: 83.7%;
+}
+table tr{
+    width: 90%;
+    border-bottom: black;
+    height: 30px;
+}
+table th{
+    font-size: .9rem;
+    background-color: black;
+    height: 35px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+table tr{
+    font-size: .8rem;
+    color: white;
+    /* color: black; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black !important;
+
+}
+tr:nth-child(even) {
+    background-color: rgb(206, 53, 53);
+  }
+/* tr:nth-child(even) {
+    background-color: gray;
+  } */
+  td{
+    padding-left: 10px;
+  }
+.drop{
+    position: relative;
+  display: inline-block;
+}
+  .drop button{
+   background-color: transparent;
+   border: none;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+  }
+  .drop-down-cont{
+    display: none;
+    position: absolute;
+    background-color: gray;
+    width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  .drop:hover .drop-down-cont {display: block;}
+  .drop-down-cont button{
+    background-color: transparent;
+   border: none;
+   color: white;
+   height: 35px;
+   width: 100%;
+  }
+  .drop-down-cont button:hover{
+    background-color: black;
+  }
+  .display{
+display:none ;
+  }
+  .D-form{
+    margin: auto;
+    width: 39%;
+    height: 350px;
+    background-color: gray;
+    border-radius: 10px;
+    padding: 1px 5px 20px 30px;
+    box-shadow:  0px 0px 20px black;
+  }
+  .D-form h2{
+    margin-top: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+  }
+  .D-overlay{
+    display: none;
+    background-color: rgba(0, 0, 0, 0.388);
+    height:497px;
+    width: 100%;
+    position: absolute;
+    padding-top: 100px;
+    top: 0;
+  }
+  .addStaff-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .addClass-item{
+    height: 100%;
+  }
+  .imp{
+    /* height: 50px; */
+    display: flex;
+    flex-direction: column;
+  }
+  .imp label{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .imp input{
+    height: 27px;
+    border: none;
+    color: black;
+    padding-left: 5px;
+    font-size: 12px;
+    width: 230px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    outline: none;
+  }
+  .imp span{
+    font-size: 12px;
+  }
+  .fles{
+    display: flex;
+    gap: 170px;
+    align-items: center;
+  }
+  .fles button{
+    height: 35px;
+    width: 100px;
+    border: none;
+    background-color: gray;
+    color: white;
+    transition: .6s ease all;
+  }
+  .fles button:hover{
+    background-color: black;
+  }
+  /* staff end */
+>>>>>>> 1390318caaa8c2a5d179b8341c47586662b6092b
