@@ -295,14 +295,13 @@ nav button:hover{
 }
 /* ======= */
 
+
 .employ{
     top:56px;
     position: fixed;
-    background-color: rgb(227, 127, 127);
     height: 545px;
     width: 100%;
     z-index: 0;
-    background-color: rgb(228, 224, 224);
 }
 .addStaff{
     height: 60px;
@@ -314,6 +313,7 @@ nav button:hover{
 }
 .addStaff button{
     background-color: brown;
+    background-color: gray;
     border: none;
     height: 40px !important;
     width: 120px;
@@ -327,6 +327,7 @@ nav button:hover{
 }
 .addStaff button:hover{
     background-color: rgb(109, 16, 16);
+    background-color: black;
 }
 .search{
     display: flex;
@@ -336,6 +337,7 @@ nav button:hover{
     height: 40px !important;
     width: 170px;
     color: brown;
+    color: black;
     padding-left: 10px;
     border: none;
     outline: none;
@@ -352,16 +354,16 @@ nav button:hover{
     background-color: gray !important;
 }
 table{
-    width: 84%;
+    width: 83.7%;
 }
 table tr{
     width: 90%;
-    border-bottom: rgb(109, 16, 16);
+    border-bottom: black;
     height: 30px;
 }
 table th{
     font-size: .9rem;
-    background-color: rgb(109, 16, 16);
+    background-color: black !important;
     height: 35px;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -369,12 +371,17 @@ table th{
 table tr{
     font-size: .8rem;
     color: white;
+    /* color: black; */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: black !important;
 
 }
 tr:nth-child(even) {
     background-color: rgb(206, 53, 53);
   }
+/* tr:nth-child(even) {
+    background-color: gray;
+  } */
   td{
     padding-left: 10px;
   }
@@ -393,6 +400,7 @@ tr:nth-child(even) {
     display: none;
     position: absolute;
     background-color: brown;
+    background-color: gray;
     width: 70px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -407,6 +415,7 @@ tr:nth-child(even) {
   }
   .drop-down-cont button:hover{
     background-color: rgb(109, 16, 16);
+    background-color: black;
   }
   .display{
 display:none ;
@@ -415,9 +424,10 @@ display:none ;
     margin: auto;
     width: 39%;
     height: 350px;
-    background-color: rgb(223, 39, 39);
+    background-color: gray;
     border-radius: 10px;
-    padding: 10px;
+    padding: 1px 5px 20px 30px;
+    box-shadow:  0px 0px 20px black;
   }
   .D-form h2{
     margin-top: 0;
@@ -427,10 +437,11 @@ display:none ;
   .D-overlay{
     display: none;
     background-color: rgba(0, 0, 0, 0.388);
-    height: 497px;
-    position: relative;
+    height:497px;
+    width: 100%;
+    position: absolute;
     padding-top: 100px;
-    z-index: 0;
+    top: 0;
   }
   .addStaff-grid{
     display: grid;
@@ -454,6 +465,7 @@ display:none ;
     height: 27px;
     border: none;
     color: brown;
+    color: black;
     padding-left: 5px;
     font-size: 12px;
     width: 230px;
@@ -474,10 +486,12 @@ display:none ;
     width: 100px;
     border: none;
     background-color: brown;
+    background-color: gray;
     color: white;
     transition: .6s ease all;
   }
   .fles button:hover{
     background-color: rgb(109, 16, 16);
+    background-color: black;
   }
   /* staff end */
