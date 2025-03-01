@@ -468,7 +468,7 @@ display:none ;
   .D-form{
     margin: auto;
     width: 39%;
-    height: 350px;
+    /* height: 350px; */
     background-color: gray;
     border-radius: 10px;
     padding: 1px 5px 20px 30px;
@@ -478,6 +478,18 @@ display:none ;
     margin-top: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: white;
+  }
+  .D-close{
+    font-size: 1.2rem;
+    margin-top: 20px;
+align-items: center;
+    display: flex;
+    justify-content: space-between;
+  } 
+  .D-close button{
+background-color: transparent;
+border: none;
+cursor: pointer;
   }
   .D-overlay{
     display: none;
@@ -500,21 +512,27 @@ display:none ;
     display: flex;
     flex-direction: column;
   }
+  .imp2{
+    height: 28px;
+    background-color: #ffffff;
+    padding-top: 7px;
+    width: 235px;
+}
   .imp label{
-    font-size: 1.1rem;
+    font-size: .8rem;
     font-weight: 600;
     color: white;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
   .imp input{
-    height: 27px;
+    height: 29px;
     border: none;
     color: black;
     padding-left: 5px;
     font-size: 12px;
     width: 230px;
     margin-bottom: 5px;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     outline: none;
   }
   .imp span{
@@ -522,7 +540,7 @@ display:none ;
   }
   .fles{
     display: flex;
-    gap: 170px;
+    gap: 150px;
     align-items: center;
   }
   .fles button{
@@ -532,9 +550,11 @@ display:none ;
     background-color: gray;
     color: white;
     transition: .6s ease all;
+    border: 1.5px solid white;
   }
   .fles button:hover{
     background-color: black;
+    border: none;
   }
   /* staff end */
->>>>>>> 1390318caaa8c2a5d179b8341c47586662b6092b
+

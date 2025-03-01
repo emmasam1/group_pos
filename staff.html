@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Staffs</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
 </head>
 <body>
   <div class="">
@@ -28,7 +31,7 @@
           </nav>
           <div class="employ">
               <div class="addStaff">
-                <button onclick="addStaff()">Add Staff +</button>
+                <button class="D-btn">Add Staff +</button>
                 <div class="search">
                   <input type="search" id="search" placeholder="Search Staff">
                   <button><img src="icons/search.png" alt=""></button>
@@ -66,138 +69,65 @@
                     </div>
                   </td>
                   </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Jack Frost</td>
-                    <td>rvhbdjvnfkbmflbmflkbkvlfvm</td>
-                    <td>david@gmail.com</td>
-                    <td>09168211770</td>
-                    <td>same adenitiy</td>
-                    <td>08034526701</td>
-                    <td>
-                      <div class="drop">
-                      <button><img src="icons/menu.png" alt="" style="width: 30px; "></button>
-                        <div class="drop-down-cont">
-                        <button>Edit</button>
-                        <button>Block</button>
-                        <button>Delete</button>
-                        <button>Summon</button>
-                      </div>
-                    </div>
-                  </td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Jack Frost</td>
-                    <td>rvhbdjvnfkbmflbmflkbkvlfvm</td>
-                    <td>david@gmail.com</td>
-                    <td>09168211770</td>
-                    <td>same adenitiy</td>
-                    <td>08034526701</td>
-                    <td>
-                      <div class="drop">
-                      <button><img src="icons/menu.png" alt="" style="width: 30px; "></button>
-                        <div class="drop-down-cont">
-                        <button>Edit</button>
-                        <button>Block</button>
-                        <button>Delete</button>
-                        <button>Summon</button>
-                      </div>
-                    </div>
-                  </td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Jack Frost</td>
-                    <td>rvhbdjvnfkbmflbmflkbkvlfvm</td>
-                    <td>david@gmail.com</td>
-                    <td>09168211770</td>
-                    <td>same adenitiy</td>
-                    <td>08034526701</td>
-                    <td>
-                      <div class="drop">
-                      <button><img src="icons/menu.png" alt="" style="width: 30px; "></button>
-                        <div class="drop-down-cont">
-                        <button>Edit</button>
-                        <button>Block</button>
-                        <button>Delete</button>
-                        <button>Summon</button>
-                      </div>
-                    </div>
-                  </td>
-                  </tr>
-                  <tr>
-                    <td>1</td>
-                    <td>Jack Frost</td>
-                    <td>rvhbdjvnfkbmflbmflkbkvlfvm</td>
-                    <td>david@gmail.com</td>
-                    <td>09168211770</td>
-                    <td>same adenitiy</td>
-                    <td>08034526701</td>
-                    <td>
-                      <div class="drop">
-                      <button><img src="icons/menu.png" alt="" style="width: 30px; "></button>
-                        <div class="drop-down-cont">
-                        <button>Edit</button>
-                        <button>Block</button>
-                        <button>Delete</button>
-                        <button>Summon</button>
-                      </div>
-                    </div>
-                  </td>
-                  </tr>
                 </table>
               </div>
               
           </div>
         </div>
     </div>
+
+
     <div class="D-overlay">
-    <form action="" class="D-form" onsubmit="handleSubmit(event)">
-      <h2>Add User</h2>
+    <form action="" class="D-form">
+      <div class="D-close">
+        <h2>Add Staff</h2>
+        <button id="close_form"><img src="icons/left-arrow.png" alt=""></button>
+    </div>
         <div class="addStaff-grid">
           <div class="addClass-item">
             <div class="imp">
-              <label for="">*FULL NAME</label>
-              <input type="text" placeholder="Enter Full Name">
-              <span></span>
+              <label for="">FULL NAME</label>
+              <input id="fullname" type="text" placeholder="Enter Full Name">
+              <span id="nameErr"></span>
             </div>
             <div class="imp">
-              <label for="">*EMAIL</label>
-              <input type="text" placeholder="Enter Email Address">
-              <span></span>
+              <label for="">EMAIL</label>
+              <input id="email" type="text" placeholder="Enter Email Address">
+              <span id="emailErr"></span>
             </div>
             <div class="imp">
-              <label for="">*GUARANTOR</label>
-              <input type="text" placeholder="Enter Guarantor Name">
-              <span></span>
+              <label for="">GUARANTOR</label>
+              <input id="Gname" type="text" placeholder="Enter Guarantor Name">
+              <span id="GErr"></span>
             </div>
           </div>
           <div class="addClass-item">
             <div class="imp">
-              <label for="">*ADDRESS</label>
-              <input type="text" placeholder="Enter Address">
-              <span></span>
+              <label for="">ADDRESS</label>
+              <input id="address" type="text" placeholder="Enter Address">
+              <span id="addrErr"></span>
             </div>
             <div class="imp">
-              <label for="">*NUMBER</label>
-              <input type="text" placeholder="Enter Phone Number">
-              <span></span>
+              <label for="">NUMBER</label>
+              <input id="phoneNo" type="text" placeholder="Enter Phone Number">
+              <span id="NumErr"></span>
             </div>
             <div class="imp">
-              <label for="">*GUARANTOR NUMBER</label>
-              <input type="text" placeholder="Enter Guarantor Phone Number">
-              <span></span>
+              <label for="">GUARANTOR NUMBER</label>
+              <input id="GPhoneNo" type="text" placeholder="Enter Guarantor Phone Number">
+              <span id="gpErr"></span>
             </div>
           </div>
         </div>
         <div class="fles">
         <div class="imp">
-          <label for="">*IMAGE</label>
+          <label for="">IMAGE</label>
+          <div class="imp2">
           <input type="file" placeholder="Click To Upload" style="width: 200px !important; height: 35px !important ;">
+        </div>
           <span></span>
         </div>
-        <button>Submit</button>
+        <button id="addStaff">Add Staff</button>
       </div>
 
     </form>

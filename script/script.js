@@ -76,6 +76,79 @@ $(document).ready(function(){
     })
 })
 
+$(document).ready(function(){
+    $('.D-btn').click(function(){
+        console.log('cl')
+        let overlay = $('.D-overlay')
+        overlay.stop(true,true).fadeIn(500)
+    })
+    $('#close_form').click(function(event){
+        event.preventDefault()
+        let overlay = $('.D-overlay')
+        overlay.stop(true,true).fadeOut(500)
+    })
+    $('#addStaff').click(function(event){
+       event.preventDefault()
+       console.log('vb')
+
+       let regex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
+       let fullname = $('#fullname').val()
+       let nameErr = $('#nameErr')
+       let email = $('#email').val()
+       let emailErr = $('#emailErr')
+       let Gname = $('#Gname').val()
+       let GErr = $('#GErr')
+       let address = $('#address').val()
+       let addrErr = $('#addrErr')
+       let phoneNo = $('#phoneNo').val()
+       let NumErr = $('#NumErr')
+       let GPhoneNo = $('#GPhoneNo').val()
+       let gpErr = $('#gpErr')
+
+       if(fullname === ''){
+        nameErr.text("*required field*") 
+     }else{
+        nameErr.text('')
+     }
+
+     if(email == ''){
+        emailErr.text("*required field*")  
+    }else if(!regex.test(email)){
+        emailErr.text("*enter a valid email address*")
+    }else{
+        emailErr.text("")
+    }
+
+   if(Gname === ''){
+    GErr.text("*required field*") 
+   }else{
+    GErr.text('')
+   }
+
+   if(address === ''){
+    addrErr.text("*required field*") 
+   }else{
+    addrErr.text('')
+   }
+
+   if(phoneNo === ''){
+    NumErr.text("*required field*") 
+   }else if(phoneNo.length < 11 || phoneNo.length !== 11){
+    NumErr.text('*11 digits number required')
+   }else{
+    NumErr.text('')
+   }
+
+   if(GPhoneNo == ''){
+    gpErr.text("*required field*") 
+   }else if(GPhoneNo.length < 11 || GPhoneNo.length !== 11){
+    gpErr.text('*11 digits number required')
+   }else{
+    gpErr.text('')
+   }
+})
+})
+
 // =======
 // function handleSubmit(event){
 //     event.preventDefault()
